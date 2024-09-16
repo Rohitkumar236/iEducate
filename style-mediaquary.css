@@ -1,0 +1,107 @@
+@media only screen and (min-width:840px) and (max-width: 1040px) {
+    .navbar {
+        width: 95%;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .nav-list li a  {
+        font-size: 15px;
+    }
+    #search {
+        height: 20px;
+        width: 150px;
+    }
+    .btn-sm {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .box-main {
+        width: 95%;
+    }
+    .text-big {
+        font-size: 2.3rem;
+        line-height: 4.5rem;
+    }
+    .text-small {
+        font-size: 0.95rem;
+        line-height: 1.5rem;
+    }
+    .btn {
+        padding: 8px 14px;
+        font-size: 1rem;
+    }
+
+    .section {
+        width: 95%;
+    }
+    .sectiontag {
+        font-size: 2.3rem;
+        line-height: 4,5rem;
+    }
+    .sectionsubtag {
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .logo img {
+        width: 130px;
+        padding: 15px 0;
+    }
+    .nav-list li {
+        display: block;
+        padding: 10px;
+    }
+    .nav-list {
+        background-color: rebeccapurple;
+        width: 100%;
+        position: absolute;
+        top: -400%;
+        padding: 10px;
+        transition: all .5s;
+    }
+    .burger {
+        display: block;
+    }
+    .show {
+        top: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .right-nav {
+        display: none;
+    }
+    .box-main {
+        flex-direction: column;
+    }
+    .firsthalf {
+        width: 100%;
+    }
+    .text-big {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .text-small {
+        font-size: 0.85rem;
+        line-height: 1.3rem;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .secondhalf {
+        margin-top: 40px;
+    }
+    .secondhalf img {
+        width: 80%;
+    }
+
+}
